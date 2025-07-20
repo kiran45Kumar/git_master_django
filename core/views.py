@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse("Welcome to GitMaster Django Project 🚀")
+    return HttpResponse("Updated: Git is awesome! 😎")
