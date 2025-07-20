@@ -4,5 +4,5 @@ from django.http import HttpResponse
 # Create your views here.
 def home(request):
     a = 'Kiran'
-    return HttpResponse(f"Updated: Git is awesome! {a} 😎")
+    return HttpResponse(f"Git is awesome! {a} 😎")
 
